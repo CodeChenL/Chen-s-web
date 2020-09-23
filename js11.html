@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>html</title>
+    </head>
+    <body>
+        <script>
+            var nameList=[];
+            function myFn(){
+                var x=53;
+                var num=Math.floor((Math.random()*x));
+                nameList[num]=num;
+                document.getElementById("detail").innerHTML=nameList[];
+            }
+        </script>
+        <h1>抽奖</h1>
+        <input id="bt" type="button" value="点击抽奖" onclick="myFn()"/>
+        <div id="detail"></div>
+    </body>
+</html>
